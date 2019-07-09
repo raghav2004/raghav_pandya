@@ -3,6 +3,7 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+  scroll: smooth; 
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -36,6 +37,7 @@ body, html {
   width: 100%;
   text-align: center;
   color: #000;
+  opacity: 0.6;
 }
 
 .follow {
@@ -47,13 +49,16 @@ body, html {
   color: #000;
 }
 
-.caption span.border {
+.caption .border {
+  width: 320px;
+  border: 5px solid gray;
+  margin: 0;
   background-color: #111;
   color: #fff;
   padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
 }
+
 
 h3 {
   letter-spacing: 5px;
