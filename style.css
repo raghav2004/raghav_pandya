@@ -1,9 +1,10 @@
+/* CSS for home page */
+
 body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
-  scroll: smooth; 
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -16,12 +17,12 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("frog.jpg.jpg");
+  background-image: url("hat.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("firework.jpg.jpg");
+  background-image: url("leaf.jpeg");
   min-height: 75%;
 }
 
@@ -37,7 +38,7 @@ body, html {
   width: 100%;
   text-align: center;
   color: #000;
-  opacity: 0.6;
+ opacity: 0.9; 
 }
 
 .follow {
@@ -51,14 +52,13 @@ body, html {
 
 .caption .border {
   width: 320px;
-  border: 5px solid gray;
+  border: 5px solid white;
   margin: 0;
   background-color: #111;
   color: #fff;
   padding: 18px;
   letter-spacing: 2px;
 }
-
 
 h3 {
   letter-spacing: 5px;
@@ -67,4 +67,27 @@ h3 {
   color: #111;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 9;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
 
